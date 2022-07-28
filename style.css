@@ -1,0 +1,20 @@
+.widget {
+    display: flex; justify-content: space-between; gap: 10px; 
+    
+}
+
+.reddit_widget{
+    max-width:400px;
+    margin-bottom: 20px;
+    margin-left: auto;        
+    margin-right: auto;
+}
+
+
+@media (max-width: 768px) { 
+    
+    .widget {
+        display: block;
+    }
+     
+}
